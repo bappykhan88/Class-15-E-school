@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    line-height: 1.6;
+    color: rgb(71, 71, 71);
+}
+
+body a {
+    text-decoration: none;
+}
+
+.common-btn {
+    border-radius: 30px;
+    padding: 10px 20px;
+    background-color: #21b473;
+    border: 2px solid#21b473;
+    color: white;
+    font-weight: 500;
+}
+
+.common-btn:hover {
+    background-color: #21b47200;
+    color: black;
+    transition: all 0.3s ease;
+}
+
+header {
+    background-color: #23ac3b38;
+}
+.fixed-top{
+    background-color: #cfedd4;
+}
+
+.navbar-brand img {
+    width: 150px;
+    height: 70px;
+    object-fit: contain;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+
+.nav-item:last-child .nav-link {
+    border-radius: 10px;
+    background-color: #46467c;
+    color: white;
+}
+
+.nav-item:hover {
+    color: white;
+    background-color: #46467c;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.nav-item:hover .nav-link {
+    color: white;
+    border-radius: 10px;
+
+}
+
+/* banner-section */
+
+.heading-text {
+    /* font-size: 60px; */
+}
+
+.heading-text span {
+    color: #21b473;
+}
+
+/* category-section */
+
+.card {
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.415) 1.95px 1. transition: all 0.3s ease;
+}
+
+.card-img-top {
+    display: block;
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin: auto;
+}
+
+/* Online course-section */
+
+
+.courses {
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.courses img {}
+
+.courses:hover {
+    box-shadow: rgba(0, 0, 0, 0.415) 1.95px 1. transition: all 0.3s ease;
+}
+
+footer {
+    background-color: #56548c;
+    color: #ffffff;
+}
+footer h4{
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    text-align: center;
+}
+
+footer ul li a {
+    color: white;
+}
